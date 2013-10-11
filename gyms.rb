@@ -47,7 +47,7 @@ CSV.open("crossfits.csv", "wb") do |csv|
 			csv << [name, url, address_1, address_2, phone]
 
 			pp 'new box'
-		end
+		end	
 	end
 
 end
